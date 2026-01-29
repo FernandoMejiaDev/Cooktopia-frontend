@@ -38,9 +38,9 @@ function Product({ products = [], onProductClick }) {
             />
 
             <div className="flex flex-row justify-between w-full p-2 ">
-              <h1 className="font-bold text-beige-950">{product.name}</h1>
-              <p className=" text-beige-950">
-                <span className="font-bold text-beige-950">$</span>
+              <h1 className="font-bold text-stone-950">{product.name}</h1>
+              <p className=" text-stone-950">
+                <span className="font-bold text-stone-950">$</span>
                 {product.price}
               </p>
             </div>

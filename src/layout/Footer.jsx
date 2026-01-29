@@ -36,7 +36,7 @@ const Footer = () => {
       <div className="mt-8 border-t-2 border-white opacity-50"></div>
 
       <p className="mt-6 text-sm text-center">
-        © {new Date().getFullYear()} Cooktopia Shop. Proyecto con fines educativos y de desarrollo.
+         {new Date().getFullYear()} Cooktopia Shop. Proyecto con fines educativos y de desarrollo.
       </p>
     </footer>
 

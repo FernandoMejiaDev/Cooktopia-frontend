@@ -17,14 +17,15 @@ const App = () => {
         position="top-right"
         autoClose={3000}
         hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
+        newestOnTop={true}
+        closeOnClick={false}
+        pauseOnHover={false}
         rtl={false}
         pauseOnFocusLoss
         draggable
-        pauseOnHover
         theme="light"
       />
+
       <Routes>
         <Route path="/" element={<Home products={products} categories={categories} />} />
         <Route path="/CreatePage" element={<CreatePage products={products} categories={categories}  />} />

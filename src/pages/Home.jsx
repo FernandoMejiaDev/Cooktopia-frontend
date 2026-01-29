@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Header from "../layout/Header";
 import Main from "../layout/Main";
-import Footer from "../layout/Footer";
 import axios from "axios";
+import Footer from "../layout/Footer";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -30,6 +30,7 @@ export default function Home() {
         categories={categories}
         onDelete={handleDelete}
       />
+        
       <Footer />
     </div>
   );

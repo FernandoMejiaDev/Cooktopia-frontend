@@ -13,7 +13,7 @@ export default function Modal({ isOpen, onClose, product, onDelete }) {
   if (!isOpen || !product) return null;
 
   const Edit = () => {
-    console.log(`Editar el producto con ID: ${product.id}`);
+    // console.log(`Editar el producto con ID: ${product.id}`);
   };
 
   const handleDeleteClick = () => {
@@ -22,9 +22,9 @@ export default function Modal({ isOpen, onClose, product, onDelete }) {
     onClose();
   };
 
-
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 text-center text-black bg-black bg-opacity-60">
+
       <div className="relative w-full max-w-[60rem] p-2 bg-stone-950 rounded-xl">
         <button
           onClick={onClose}
@@ -78,6 +78,7 @@ export default function Modal({ isOpen, onClose, product, onDelete }) {
             <div className="flex flex-row gap-1">
               <EditButton product={product} onClick={onClose} />
               <DeleteButton product={product} onClick={handleDeleteClick} />
+
             </div>
           </div>
         </div>

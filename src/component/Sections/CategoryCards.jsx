@@ -9,8 +9,8 @@ import ImgN6 from "../../assets/img/ImgN6.webp";
 const CategoryCards = () => {
   return (
 
-    <div className="relative flex flex-col items-center justify-center w-full gap-4 p-4 bg-beige-200 text-beige-950 dark:text-beige-200 dark:bg-neutral-900 min-h-auto ">
-      <h1 className="font-mono font-bold text-2xl md:text-4xl text-center max-w-[70rem]">
+    <div className="relative flex flex-col items-center justify-center w-full gap-4 p-4 bg-beige-200 text-stone-950 dark:text-beige-200 dark:bg-neutral-900 min-h-auto ">
+      <h1 className="font-bold text-2xl md:text-4xl text-center max-w-[70rem]">
         CONSIGUE TODO EN UN SOLO LUGAR
       </h1>
 

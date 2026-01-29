@@ -37,15 +37,15 @@ const ProductSection = ({ products, categories, onDelete }) => {
     }, [isOpen]);
 
     return (
-        <div className="relative flex flex-col items-center justify-center w-full gap-4 p-4 bg-beige-200 text-beige-950 dark:text-beige-200 dark:bg-neutral-900">
-            <h1 className="font-mono font-bold text-2xl md:text-4xl text-center max-w-[70rem]">
+        <div className="relative flex flex-col items-center justify-center w-full gap-4 p-4 bg-beige-200 text-stone-950 dark:text-beige-200 dark:bg-neutral-900">
+            <h1 className="font-bold text-2xl md:text-4xl text-center max-w-[70rem]">
                 Productos de COOKTOPIA
             </h1>
 
             <div className="flex flex-col gap-4 justify-between mx-auto max-w-[70rem]">
 
                 <div className="flex flex-col">
-                    <label className="p-2 text-lg font-bold rounded-t-lg text-stone-950 bg-beige-300">
+                    <label className="p-2 text-lg font-bold rounded-t-lg bg-beige-300">
                         Elegir Categoría
                     </label>
                     <select

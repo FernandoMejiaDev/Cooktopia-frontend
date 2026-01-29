@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import DarkModeIcon from "../../assets/img/DarkMode.webp";
+import DarkModeIcon from "../../assets/svg/Moon";
 
 const DarkMode = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -24,12 +24,11 @@ const DarkMode = () => {
   }, [darkMode]);
 
   return (
-    <img
-      src={DarkModeIcon}
-      alt="DarkModeIcon"
-      className="h-auto cursor-pointer w-28 invert-0 md:w-34"
+    <div
       onClick={() => setDarkMode(!darkMode)}
-    />
+    >
+      <DarkModeIcon className="h-auto cursor-pointer w-28 invert-0 md:w-34" />
+    </div>
   );
 };
 
