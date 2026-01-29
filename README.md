@@ -45,11 +45,4 @@ Cabe destacar que existe otra versión del proyecto que **incluye backend comple
 
 Esta experiencia permite comprender el flujo completo de un E-commerce, desde la interacción del frontend hasta la gestión real de datos en el backend, ofreciendo una visión clara y práctica del desarrollo de **COOKTOPIA SHOP**.
 
-
-
-
-
-
-
-
-
+---
