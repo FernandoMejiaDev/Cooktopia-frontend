@@ -35,10 +35,6 @@ Este repositorio corresponde a la versión **frontend estática**, donde los dat
 
 Esta versión permite visualizar y probar todas las funcionalidades del proyecto **COOKTOPIA SHOP** de forma estática, replicando la experiencia del proyecto con backend, aunque los cambios no se persisten después de recargar la página.
 
----
-
-Esta versión de **COOKTOPIA SHOP** permite explorar la interfaz y las funcionalidades del proyecto de manera estática, simulando las operaciones del CRUD mediante **JSON** y mostrando alertas con **React-Toastify**.
-
 Cabe destacar que existe otra versión del proyecto que **incluye backend completo con Laravel, PHP y MySQL**, donde las operaciones del CRUD se realizan de forma real y los datos se persisten en la base de datos. Para explorar esa versión más completa, puedes consultar el repositorio aquí:
 
 [![CooktopiaShop-Backend-Repositorio](https://img.shields.io/static/v1?message=Cooktopia-Shop-Backend-Repositorio&logo=github&label=&color=181717&logoColor=white&labelColor=&style=for-the-badge)](https://github.com/FernandoMejiaDev/Cooktopia-Backend)
