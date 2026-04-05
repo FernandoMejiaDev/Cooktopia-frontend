@@ -40,6 +40,7 @@ const CategoryCards = () => {
             src={ImgN2}
             alt="alt"
             className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+            loading="lazy"
           />
 
           <div className="absolute inset-0 transition-all duration-500 bg-black/40 group-hover:bg-black/60"></div>
@@ -57,6 +58,7 @@ const CategoryCards = () => {
             src={ImgN3}
             alt="alt"
             className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+            loading="lazy"
           />
 
           <div className="absolute inset-0 transition-all duration-500 bg-black/40 group-hover:bg-black/60"></div>
@@ -74,6 +76,7 @@ const CategoryCards = () => {
             src={ImgN4}
             alt="alt"
             className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+            loading="lazy"
           />
 
           <div className="absolute inset-0 transition-all duration-500 bg-black/40 group-hover:bg-black/60"></div>
@@ -91,6 +94,7 @@ const CategoryCards = () => {
             src={ImgN5}
             alt="alt"
             className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+            loading="lazy"
           />
 
           <div className="absolute inset-0 transition-all duration-500 bg-black/40 group-hover:bg-black/60"></div>
@@ -108,6 +112,7 @@ const CategoryCards = () => {
             src={ImgN6}
             alt="alt"
             className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+            loading="lazy"
           />
 
           <div className="absolute inset-0 transition-all duration-500 bg-black/40 group-hover:bg-black/60"></div>
