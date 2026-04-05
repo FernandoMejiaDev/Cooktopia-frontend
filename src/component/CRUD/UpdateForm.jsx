@@ -87,6 +87,7 @@ const UpdateForm = ({ categories, product }) => {
                 src={`/image/${product.image}`}
                 alt={product.name}
                 className="object-contain w-40 h-40 mt-2 rounded"
+                loading="lazy"
               />
             </div>
           )}

@@ -19,6 +19,7 @@ const Header = () => {
                             src={CooktopiaShopLogo}
                             alt="CooktopiaShopLogo"
                             className="object-contain w-32 h-auto cursor-pointer invert-0"
+                            loading="lazy"
                         />
                         <div className="">
                             <DarkMode />
@@ -64,6 +65,7 @@ const Header = () => {
                             src={CooktopiaShopLogo}
                             alt="CooktopiaShopLogo"
                             className="w-40 h-auto cursor-pointer invert"
+                            loading="lazy"
                         />
 
                         <MobileMenu

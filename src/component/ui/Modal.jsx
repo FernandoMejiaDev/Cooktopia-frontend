@@ -43,7 +43,9 @@ export default function Modal({ isOpen, onClose, product, onDelete }) {
             <img
               src={`/image/${product.image}`}
               alt={product.name}
-              className="object-contain w-48 h-48 m-auto mt-16 md:mt-0 md:w-80 md:h-80" />
+              className="object-contain w-48 h-48 m-auto mt-16 md:mt-0 md:w-80 md:h-80"
+              loading="lazy"
+            />
           </div>
 
           <div className="flex flex-col items-center justify-center grid-cols-1 gap-2 md:mt-24 ">

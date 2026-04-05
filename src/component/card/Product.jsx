@@ -35,6 +35,7 @@ function Product({ products = [], onProductClick }) {
               src={`/image/${product.image}`}
               alt={product.name}
               className="w-full h-auto drop-shadow-2xl"
+              loading="lazy"
             />
 
             <div className="flex flex-row justify-between w-full p-2 ">

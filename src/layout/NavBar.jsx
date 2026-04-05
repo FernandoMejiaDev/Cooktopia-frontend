@@ -36,6 +36,7 @@ const NavBar = () => {
                         src={CooktopiaShopLogo}
                         alt="CooktopiaShopLogo"
                         className="w-40 h-auto cursor-pointer invert"
+                        loading="lazy"
                     />
                 </div>
 

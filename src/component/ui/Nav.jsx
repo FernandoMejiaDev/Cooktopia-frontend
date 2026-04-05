@@ -34,6 +34,7 @@ const Nav = ({
                     alt="Mobile Menu"
                     className={`w-24 h-auto cursor-pointer ${invertColor}`}
                     onClick={toggleMenu}
+                    loading="lazy"
                 />
             )}
 
