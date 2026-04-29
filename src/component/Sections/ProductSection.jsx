@@ -45,7 +45,7 @@ const ProductSection = ({ products, categories, onDelete }) => {
             <div className="flex flex-col gap-4 justify-between mx-auto max-w-[70rem]">
 
                 <div className="flex flex-col">
-                    <label className="p-2 text-lg font-bold rounded-t-lg bg-beige-300">
+                    <label className="p-2 text-lg font-bold rounded-t-lg text-stone-950 bg-beige-300">
                         Elegir Categoría
                     </label>
                     <select

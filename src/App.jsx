@@ -23,7 +23,8 @@ const App = () => {
         rtl={false}
         pauseOnFocusLoss
         draggable
-        theme="light"
+        theme="dark"
+        limit={1}
       />
 
       <Routes>
